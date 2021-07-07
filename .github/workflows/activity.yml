@@ -1,8 +1,7 @@
 name: Activity Box
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
+on: [push, pull_request]
+
 
 jobs:
   build:
